@@ -1,0 +1,37 @@
+{
+  "name": "chatipr",
+  "version": "0.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --watch server --ext"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect": "^3.6.6",
+    "connect-history-api-fallback": "^1.6.0",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "^1.15.6",
+    "express-socket.io-session": "^1.3.5",
+    "http": "0.0.0",
+    "http-errors": "~1.6.2",
+    "md5": "^2.2.1",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.4.4",
+    "morgan": "~1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport.socketio": "^3.7.0",
+    "pug": "2.0.0-beta11",
+    "serve-static": "^1.13.2",
+    "sessionstore": "^1.3.3",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
